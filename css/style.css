@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../img/Bitmap.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 100vh;
+}
+body .contenner {
+  width: 1110px;
+}
+body .contenner header {
+  padding-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .contenner header .menu {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+}
+body .contenner header .menu a {
+  font-family: "Alata";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+body .contenner main {
+  padding-top: 130px;
+  padding-bottom: 184px;
+}
+body .contenner main .that {
+  width: 650px;
+  height: 278px;
+  border: 2px solid #FFFFFF;
+  padding: 40px;
+}
+body .contenner main .that h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+body .contenner main .main_boy {
+  padding-top: 306px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+body .contenner main .main_boy .main_text {
+  width: 541px;
+  height: 317px;
+  background: #FFFFFF;
+  z-index: 1;
+  margin-left: -150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+body .contenner main .main_boy .main_text h2 {
+  width: 445px;
+  height: 96px;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 25px;
+}
+body .contenner main .main_boy .main_text p {
+  width: 445px;
+  height: 100px;
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+body .contenner main .main_card {
+  width: 1110px;
+  align-items: center;
+  padding-top: 184px;
+  flex-direction: column;
+}
+body .contenner main .main_card .main_card_text {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+body .contenner main .main_card .main_card_text h2 {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #000000;
+}
+body .contenner main .main_card .main_card_text button {
+  padding: 13px 40px;
+  border: 1px solid #000000;
+  background-color: transparent;
+  font-family: "Alata";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+}
+body .contenner main .main_card .card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body .contenner main .main_card .card .top {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+body .contenner main .main_card .card .top .mask h3 {
+  width: 200px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: -92px;
+  padding-left: 40px;
+  padding-bottom: 24px;
+}
+body .contenner main .main_card .card .bottom {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+}
+body .contenner main .main_card .card .bottom .mask h3 {
+  width: 210px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: -92px;
+  padding-left: 40px;
+  padding-bottom: 24px;
+}
+body .contenner footer {
+  width: 100%;
+  height: 160px;
+  background: #000000;
+}
+body .contenner footer .footer_icon {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 44px;
+  padding-bottom: 24px;
+}
+body .contenner footer .footer_icon .icon {
+  width: 144px;
+  display: flex;
+  justify-content: space-between;
+}
+body .contenner footer .footer_link {
+  display: flex;
+  justify-content: space-between;
+}
+body .contenner footer .footer_link ul {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .contenner footer .footer_link ul a {
+  font-family: "Alata";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+body .contenner footer .footer_link p {
+  font-family: "Alata";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */

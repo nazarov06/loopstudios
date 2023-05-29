@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../img/Bitmap.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 100vh;
+
+    .contenner{
+        width: 1110px;
+        header{
+            padding-top: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .menu{
+                width: 380px;
+                display: flex;
+                justify-content: space-between;
+                a{
+                    font-family: 'Alata';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+            }
+        } 
+        main{
+            padding-top: 130px;
+            padding-bottom: 184px;
+
+            .that{
+                width: 650px;
+                height: 278px;
+                border: 2px solid #FFFFFF;
+                padding: 40px;
+                h1{
+                    font-family: 'Josefin Sans';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 72px;
+                    line-height: 70px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    
+                }
+            }
+            .main_boy{
+                padding-top: 306px;
+               display: flex; 
+               align-items: flex-end;
+               position: relative;
+               .main_text{
+                width: 541px;
+                height: 317px;
+                background: #FFFFFF;
+                z-index: 1;
+                margin-left: -150px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+                flex-direction: column;
+                h2{
+                    width: 445px;
+                    height: 96px;
+                    font-family: 'Josefin Sans';
+                    font-weight: 300;
+                    font-size: 48px;
+                    line-height: 48px;
+                    text-transform: uppercase;
+                    color: #000000;
+                    padding-bottom: 25px;
+                    
+                }
+                p{
+                    width: 445px;
+                    height: 100px;
+                    font-family: 'Alata';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #000000;
+                    mix-blend-mode: normal;
+                    opacity: 0.5;
+                }
+               }
+            }
+            .main_card{
+                width: 1110px;
+                align-items: center;
+                padding-top: 184px;
+                flex-direction: column;
+                .main_card_text{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: 80px;
+                    h2{
+                        font-family: 'Josefin Sans';
+                        font-weight: 300;
+                        font-size: 48px;
+                        line-height: 48px;
+                        text-transform: uppercase;
+                        color: #000000;
+                        // padding-right: 550px;
+                        
+                    }
+                    button{
+                        padding: 13px 40px;
+                        border: 1px solid #000000;
+                        background-color:  transparent;
+                        font-family: 'Alata';
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 14px;
+                        letter-spacing: 5px;
+                        text-transform: uppercase;
+                        color: #000000;
+                        cursor: pointer;
+                    }
+                }
+                .card{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    .top{
+                        width: 1110px;
+                        display: flex;
+                        justify-content: space-between;
+                        padding-bottom: 30px;
+                        .mask{
+                            h3{
+                                width: 200px;
+                                font-family: 'Josefin Sans';
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 32px;
+                                line-height: 32px;
+                                text-transform: uppercase;
+                                color: #FFFFFF;
+                                margin-top: -92px;
+                                padding-left: 40px;
+                                padding-bottom: 24px;
+                            }
+                        }
+                    }
+                    .bottom{
+                        width: 1110px;
+                        display: flex;
+                        justify-content: space-between;
+                        .mask{
+                            
+                            h3{
+                                width: 210px;
+                                font-family: 'Josefin Sans';
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 32px;
+                                line-height: 32px;
+                                text-transform: uppercase;
+                                color: #FFFFFF;
+                                margin-top: -92px;
+                                padding-left: 40px;
+                                padding-bottom: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            width: 100%;
+            height: 160px;
+            background: #000000;
+            .footer_icon{
+                display: flex;
+                justify-content: space-between;
+                padding-top: 44px;
+                padding-bottom: 24px;
+                .icon{
+                    width: 144px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            .footer_link{
+                display: flex;
+                justify-content: space-between;
+                ul{
+                    width: 380px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    a{
+                        font-family: 'Alata';
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                    }
+                }
+                p{    
+                    font-family: 'Alata';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    mix-blend-mode: normal;
+                    opacity: 0.5;
+                }
+            }
+        }
+        
+
+    }
+}
